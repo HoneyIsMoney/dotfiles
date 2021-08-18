@@ -1,0 +1,21 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "python",
+    "typescript",
+    "yaml",
+    "toml",
+    "json"
+  ],
+  "languageserver": {
+    "solidity": {
+      "command": "/home/x31337/solc/solc-linux64",
+      "args": ["--lsp"],
+      "trace.server": "verbose",
+      "rootPatterns": [".git/"],
+      "filetypes": ["solidity"]
+    }
+  }
+}
